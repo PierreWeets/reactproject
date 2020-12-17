@@ -1,0 +1,36 @@
+html, body, #root {
+	width: 100%;
+	height: 100%;
+  }
+  
+  .SplitPane {
+	text-align: center;/* generic text alignment for all the Splitpanes */
+	margin: auto;
+	width: 90%;
+	height: 100%;
+  }
+  
+  .SplitPane-left {
+	float: left;
+	width: 20%;
+	height: 90%;
+  }
+  
+  .SplitPane-right {
+	text-align: right; /* overrides the genereric text alignment of the Splitpanes */
+	float: right;
+	width: 65%;
+	height: 85%;
+  }
+  
+  .Contacts {
+	width: 150%;
+	height: 50%; 
+	background: lightblue;
+  }
+  
+  .Chat {
+	width: 100%;
+	height: 100%; 
+	background: pink;
+  }

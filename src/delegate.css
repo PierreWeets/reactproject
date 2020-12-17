@@ -1,0 +1,43 @@
+.FancyBorder {
+  padding: 10px;
+}
+
+.FancyBorder-blue {
+	padding: 10px;
+	border-width: 10px;
+	border-style: double;
+  border-color: blue;
+}
+
+.FancyBorder-red {
+	padding: 20px;
+	border-width: 10px;
+	border-style: solid;
+  border-color: red;
+}
+
+.FancyBorder-green {
+	border-width: 10px;
+	border-style: dashed;
+  border-color: green;
+}
+
+.Dialog-title {
+  color :rgb(0, 255, 234);
+  background-color: gray;
+  margin: 1px;
+  padding : 5px;
+  font-family: sans-serif;
+  border-width: 2px;
+  border-style: dotted;
+  border-color: rosybrown;
+}
+
+.Dialog-message {
+  color : rgb(75, 5, 75);
+  background-color: rgb(80, 255, 80);
+  font-size: x-large;
+  border-width: 5px;
+  border-style: dashed;
+  border-color: rgb(231, 25, 25);
+}

@@ -1,13 +1,12 @@
 h1{
   text-align: center;
-  color: blueviolet;
+  color: red;
   background-color: black;
 }
 
 .warning{
 	text-align: center;
-	color: rgb(77, 224, 77);
-	background-color: red;
+	color: green;
 }
 
 .App {
